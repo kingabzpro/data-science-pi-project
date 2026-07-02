@@ -1,0 +1,22 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Caches
+.ruff_cache/
+.pytest_cache/
+
+# Generated model + data artifacts (regenerate with: uv run python -m src.main)
+models/*.joblib
+data/raw/*.csv
+data/processed/*.csv
+
+# Webwright run artifacts (screenshots are committed as evidence; logs optional)
+webwright/**/console_errors.json

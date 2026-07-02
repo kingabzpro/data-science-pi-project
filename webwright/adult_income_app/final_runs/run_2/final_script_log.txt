@@ -1,0 +1,14 @@
+step 0 action: started streamlit subprocess (pid=21120)
+step 1 action: streamlit server is ready
+step 2 action: loaded streamlit app homepage
+step 3 action: prediction form controls are visible
+step 4 action: filled prediction form
+step 5 action: prediction result rendered
+step 6 action: rendered prediction: Predicted income: >50K
+step 7 action: class probabilities rendered
+step 8 action: collected 0 console messages, 0 severe
+step 9 action: no severe console errors detected
+
+FINAL_RESPONSE: Predicted income: >50K
+SEVERE_CONSOLE_ERRORS: 0
+step 10 action: streamlit subprocess terminated
